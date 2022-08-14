@@ -3,7 +3,13 @@
 		<the-sidebar />
 
 		<div class="page-content">
-			Корзина
+
+			<bar-chart
+				title="Заголовок"
+				subtitle="Подзаголовок"
+			/>
+
+			<line-chart/>
 		</div>
 	</div>
 </template>
@@ -12,12 +18,16 @@
 import { defineComponent } from 'vue';
 
 import TheSidebar from '../components/TheSidebar.vue';
+import BarChart from '../components/BarChart/index.vue';
+import LineChart from '../components/LineChart/index.vue';
 
 export default defineComponent({
 	name: 'CartPage',
 
 	components: {
-		TheSidebar
+		TheSidebar,
+		BarChart,
+		LineChart
 	}
 })
 </script>

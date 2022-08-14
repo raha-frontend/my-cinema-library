@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@qvant/qui-max": "^0.15.0",
+    "echarts": "^5.3.3",
     "vue": "^3.2.25",
+    "vue-echarts": "^6.2.3",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {

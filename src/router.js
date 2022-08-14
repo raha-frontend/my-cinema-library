@@ -9,7 +9,7 @@ import PostForm from './components/PostForm.vue'
 import PostList from './components/PostList.vue'
 
 const routes = [
-  {
+  	{
 		path: '/',
 		component: HomePage
 	},
